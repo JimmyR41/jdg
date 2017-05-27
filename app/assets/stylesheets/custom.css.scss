@@ -1,4 +1,3 @@
-
 $navbar-default-bg: #8D8DB3;
 $navbar-default-link-color: black;
 
@@ -8,26 +7,24 @@ nav.navbar {
   padding-bottom: 0;
 }
 
-$jumbotron-color: #8D8DB3;
-
 .center {
   text-align: center;
 }
 
-.jumbotron{
-  background-image: asset-url("wolf.jpg");
-  background-repeat: no-repeat;
-  background-size: cover;
-  height: 920px;
-  margin-top: 30px;
+$jumbotron-color: #8D8DB3;
+.jumbotron {
+    margin-bottom: 0px !important;
+    background-image: asset-url("wolf.png");
+    background-size: cover;
+    height: 800px;
 }
 
 footer {
   margin-top: 0px;
   background-color: #8D8DB3;
   padding-top: 15px;
-  border-top: 1px solid #EAEAEA;
-  height: 50px;
+  //border-top: 1px solid #EAEAEA;
+  height: 52px;
 }
 
 @import "bootstrap-sprockets";
