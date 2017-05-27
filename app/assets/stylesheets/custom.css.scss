@@ -1,5 +1,4 @@
 $navbar-default-bg: #8D8DB3;
-
 $navbar-default-link-color: black;
 
 nav.navbar {
@@ -7,27 +6,27 @@ nav.navbar {
   margin-bottom: 0;
   padding-bottom: 0;
 }
+$jumbotron-margin-bottom: 0px;
 
-.jumbotron {
-  background-image: asset-url("");
+.jumbotron{
+  background-image: asset-url("wolf.jpg");
   background-repeat: no-repeat;
-  background-size: auto 100%;
-  background-position: center;
-  height: 500px;
-  margin-top: 30px;
+  background-size: cover;
+  background-size: 100%;
+  margin-bottom: 0;
 }
 
 .center {
   text-align: center;
 }
-@import "bootstrap-sprockets";
-@import "bootstrap";
 
 footer {
-  margin: 0px;
+  margin-top: 0px;
   background-color: #8D8DB3;
   padding-top: 15px;
   border-top: 1px solid #EAEAEA;
   height: 50px;
-
 }
+
+@import "bootstrap-sprockets";
+@import "bootstrap";
